@@ -1,9 +1,7 @@
 import unittest
 import sys
 
-sys.path.append("../../src")
-
-from nodes import node#, value
+from ...src.nodes import node#, value
 
 class NodeTest(unittest.TestCase):
     def testSimple(self):
